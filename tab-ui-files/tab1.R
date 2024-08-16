@@ -26,6 +26,5 @@ fluidPage(
                h3("Corpus Letter Percents"),
                tableOutput("corpusletter")
         ),
-    ),
-    hr(),hr()
+    )
 )

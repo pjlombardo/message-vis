@@ -12,5 +12,7 @@ ui<-fluidPage(
                 tabPanel("Index of Coincidence (IOC)",
                          br(),
                          source('tab-ui-files/tab3.R',local=TRUE)$value)
-    )
+    ),
+    hr(),
+    div(h4("Created by P. Lombardo"), style = "float:right")
 )
